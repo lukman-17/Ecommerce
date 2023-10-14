@@ -1,0 +1,40 @@
+nav{
+  display: flex;
+  border-bottom: 2px solid#c7c2c2;
+  justify-content: space-around;
+  align-items: center;
+  padding:15px;
+  z-index: 999;
+  margin-left: 0rem;
+  
+}
+input{
+  padding: 12px 50px;
+  border: none;
+  background: #f8f3f3;
+  outline: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 14rem;
+
+}
+.nav-icons{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+  color: rgb(36, 21, 19);
+  cursor: pointer;
+    
+}
+.spn{
+  min-width: 20px;
+  text-align: center;
+background-color: rgb(120, 199, 236);
+ padding: 2.5px;
+  position: absolute;
+ top: 21px;
+  right: 260px;
+ line-height: 1;
+border-radius: 10px;
+}

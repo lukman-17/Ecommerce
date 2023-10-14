@@ -1,0 +1,122 @@
+/* img{
+height: 250px;
+width: 300px;
+} */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 7px;
+    padding: 13px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 200px; 
+  }
+  
+  .card {
+    margin: 0;
+    width: 273px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #f8f3f3; /* Card background color */
+    position: relative; /* Make the card a positioning context for the child elements */
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-image {
+   
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 7px;
+  }
+  
+  .card-title {
+    font-size: 1.05rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(20, 18, 18);
+  }
+  
+    .card-reviews{
+        margin-bottom:1rem;
+        display: flex;
+    }
+    .ratings-star {
+        color: #eeab24;
+        margin-right: 4px;
+      }
+      
+    .total-reviews{
+        font-size: 0.8rem;
+        margin-left: 10px;
+    }
+    .card-price {
+        display: flex;
+        color: black;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0.6rem;
+      }
+      .card-price p {
+        font-size: 0.8rem;
+        color: #ff4500; /* Change the color */
+        font-weight: bold;
+        margin-top: 0.5rem;
+        margin-left: -50px; /* Adjust this value as needed */
+      }
+      .price {
+        font-size: 1rem;
+        font-weight: bold;
+       
+      }
+    
+      .bag {
+        font-size: 1.2rem;
+        color: #042c04;
+       
+      }
+      
+      .assr button {
+        margin: 10px auto; /* Center-align the button */
+        display: block; /* Make it a block element */
+        outline: none;
+        border: none;
+        padding: 10px 20px; /* Increase padding for a more premium look */
+        background-color: #1e90ff; /* Classic deep blue color */
+        color: #fff;
+        font-weight: bold;
+        border-radius: 30px; /* Increase border-radius for a rounded button */
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        text-transform: uppercase; /* Uppercase text for a premium feel */
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+      }
+      
+      .assr button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+      }
+      
+      
+
+.wish {
+  position: absolute;
+  top: 10px; /* Adjust this value as needed to position the icon */
+  right: 10px; /* Adjust this value as needed to position the icon */
+  font-size: 1.4rem;
+  color: #ff4500;
+  text-decoration: none;
+}
+
+.wish a:hover {
+  color: #ff2200;
+}

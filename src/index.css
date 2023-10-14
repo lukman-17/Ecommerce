@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+  color: rgb(36, 10, 10);
+}
+li{
+  list-style:none;
+}
+.btns{
+  
+  margin-bottom: 25px;
+  gap: 10px;
+  padding: 10px 20px;
+  margin-right: 6px;
+  background-color:#3794f7;
+  border: 0.6px solid#ccc;
+  border-radius: 5px;
+  color:rgb(255, 255, 255);
+
+}
+/* Add this to your existing CSS or a new CSS file */
+.cart-toggle-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color:transparent;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 1px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size:xx-large;
+}
+
+.cart-toggle-button:hover {
+  background-color: transparent;
+}
+.wishlist-toggle-button{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: transparent;
+  color:black;
+  border: none;
+  padding: 1px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 2.7rem;
+  font-size: xx-large
+}
+
+.add-toggle-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color:transparent;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 1px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size:xx-large;
+  margin-right: 110px;
+}

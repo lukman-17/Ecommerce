@@ -1,0 +1,90 @@
+/* Checkout.css */
+
+.checkout {
+    text-align: center;
+  }
+  
+  .haidin {
+    color: rgb(255, 0, 98);
+    font-size: 2rem;
+  }
+  
+  .checkout-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Left Side Styles */
+  .left-side {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .personal-details-box,
+  .shipping-details-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    width: 700px;
+    margin-top: 20px;
+    text-align: left; /* Align text to the left within boxes */
+  }
+  
+  /* Right Side Styles */
+  .right-side {
+    max-width: 300px;
+  }
+  
+  .product-details-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    margin-left: -70px;
+    width:300px;
+    height: auto;
+    margin-top: 20px;
+
+  }
+  
+  .product-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-item {
+  
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    width: 90%; /* Adjust the width to your preference */
+    height: 180px; /* Set a maximum height to maintain proportions */
+  }
+  
+  .product-item-details {
+   font-style: italic;
+   margin-left: 20px; 
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .pay{
+     padding: 10px 15px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 7px;
+  }

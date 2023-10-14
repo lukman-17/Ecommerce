@@ -1,0 +1,23 @@
+
+/* PersonalDetails.css */
+
+
+   
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: flex;
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 40%;
+  }
+  
